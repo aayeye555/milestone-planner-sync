@@ -1,0 +1,10 @@
+name = "milestone-planner-sync"
+main = "index.ts"
+compatibility_date = "2024-03-01"
+
+[vars]
+# You can set GITHUB_REPO, GITHUB_PATH and GITHUB_BRANCH in wrangler.toml or via Cloudflare dashboard.
+# Do NOT store GITHUB_TOKEN here. Use wrangler secrets (wrangler secret put GITHUB_TOKEN) for security.
+GITHUB_REPO = "your-github-username/your-repository-name"
+GITHUB_PATH = "project.json"
+GITHUB_BRANCH = "main"
